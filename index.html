@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Food</title>
+    <!-- Swiper Slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section stars -->
+    <header>
+      <a href="#" class="logo" id="modal"
+        ><i class="fas fa-utensils"></i><b class="logo-text"> resto. </b>
+        <div class="modal">
+          <h3>Chào mừng quý khách đến với website bán đồ ăn của chúng tôi</h3>
+        </div>
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active"> home </a>
+        <a href="#dishes"> dishes </a>
+        <a href="#about"> about </a>
+        <a href="#menu"> menu </a>
+        <a href="#review"> review </a>
+        <a href="#order"> order </a>
+      </nav>
+      <div class="icons">
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon">
+          <div class="hover">
+            <input type="text" placeholder="Enter your characters" />
+          </div>
+        </i>
+        <a href="#" class="fas fa-heart">
+          <div class="hover-one">
+            <li>Yêu thích</li>
+          </div>
+        </a>
+        <a href="#" class="fas fa-shopping-cart">
+          <div class="hover-two">
+            <li>Giỏ hàng</li>
+          </div>
+        </a>
+      </div>
+    </header>
+    <!-- header section ends -->
+    <!-- search form -->
+    <form action="" id="search-form">
+      <input
+        type="text"
+        placeholder="search here ..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span> our special dish </span>
+              <h3>spicy noodles</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda dolore velit hic dolorem consectetur numquam ?
+              </p>
+              <a href="" class="btn"> order now </a>
+            </div>
+            <div class="image">
+              <img
+                src="https://is5-ssl.mzstatic.com/image/thumb/Features113/v4/5c/7f/da/5c7fda50-2613-402f-45ce-bfa94f20713f/pr_source.png/736x0w.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span> our special dish </span>
+              <h3>fried chicken</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda dolore velit hic dolorem consectetur like ...
+              </p>
+              <a href="" class="btn"> order now </a>
+            </div>
+            <div class="image">
+              <img
+                src="https://khothietke.net/wp-content/uploads/2021/05/PNGKhothietke.net-03235.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span> Our special dish </span>
+              <h3>hot pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda dolore velit hic dolorem consectetur dish ?
+              </p>
+              <a href="" class="btn"> order now </a>
+            </div>
+            <div class="image">
+              <img
+                src="https://khothietke.net/wp-content/uploads/2021/05/PNGKhothietke.net-03237.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-panigation"></div>
+      </div>
+    </section>
+    <!-- home section ends -->
+    <!-- dishes section starts -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="https://khothietke.net/wp-content/uploads/2021/05/PNGKhothietke.net-03241.png"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="https://cnttqn.net/attachments/bat-pho-bo-viet-nam-thiet-ke-png.577.html"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="http://cdn-gd-v2.webbnc.net/themes/93567/statics/imgs/slide01-06.png?v=1"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="http://cdn-gd-v2.webbnc.net/themes/93567/statics/imgs/slide01-01.png?v=1"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="https://www.nhahangquangon.com/wp-content/uploads/2020/06/hao-nuong-mo-hanh.png"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img
+            src="http://nhahangmocchau.com/wp-content/uploads/2020/04/Ga-nuong-mac-khen-dac-san-moc-chau-1024x819.png"
+            alt=""
+          />
+          <h3>tasty food</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span> $ 15.99 </span>
+          <a href="#" class="btn"> add to cart </a>
+        </div>
+      </div>
+    </section>
+    <!-- dishes section ends -->
+    <!-- about section stars -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">Why choose us ?</h1>
+      <div class="row">
+        <div class="image">
+          <img
+            src="https://tse2.mm.bing.net/th?id=OIP.-QjZlu8WBdLWUmitThfggQAAAA&pid=Api&P=0&w=225&h=219"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+            dignissimos tempora amet et qui autem unde temporibus quos id?
+            Mollitia iste doloremque repudiandae porro, harum consequatur
+            maiores molestias sunt laudantium.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+            dignissimos ullam exercitationem quisquam deleniti voluptatem nemo
+            voluptatibus dolor placeat laborum. Molestias dolore officiis
+            incidunt vero. Suscipit impedit accusantium expedita facere.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shopping-cart"></i>
+              <span> free delivery </span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span> easy payments </span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span> 24/7 service </span>
+            </div>
+          </div>
+          <a href="#" class="btn"> learn more </a>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">todays speciality</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://tse4.mm.bing.net/th?id=OIP.IUwFmuKhmczhUikad5b6SwAAAA&pid=Api&P=0&w=225&h=219"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.nhahangquangon.com/wp-content/uploads/2020/06/tom-hum-bong.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.nhahangquangon.com/wp-content/uploads/2020/06/tho-len-met-1.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://cdn-img-v2.webbnc.net/uploadv2/web/14/14961/product/2020/12/17/02/23/1608188728_1607071355_com-pha-lau-thap-cam_01.png?v=4"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://baozdimsum.com/wp-content/uploads/2018/03/BDS-103.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.nhahangquangon.com/wp-content/uploads/2020/06/lau-kingcrab.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.nhahangquangon.com/wp-content/uploads/2020/06/cua-kingcrab-2.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://static2.yan.vn/YanNews/2167221/201810/thuc-don-hoanh-trang-tren-20-mon-moi-tu-nha-hang-hoa-dang-cap-b7ef365b.png"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://tse1.mm.bing.net/th?id=OIP.k7xsV9PxkhWc8XpQk1Q1WwAAAA&pid=Api&P=0&w=185&h=180"
+              alt=""
+            />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              voluptate, iusto qui ...
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price"> $ 12.99 </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+    <!-- review section starts -->
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img
+                src="https://cdn-img-v2.webbnc.net/uploadv2/web/14/14961/product/2020/12/11/04/46/1607679311_1607080638_ech-hanh-gung-tay-cam.png?v=4"
+                alt=""
+              />
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quia
+              repellendus consequuntur ullam voluptatum unde repudiandae odio
+              vel enim similique fugit porro accusamus mollitia deleniti quaerat
+              itaque consectetur, dolorem perspiciatis!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img
+                src="https://www.nhahangquangon.com/wp-content/uploads/2020/05/Heo-toc-r.png"
+                alt=""
+              />
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quia
+              repellendus consequuntur ullam voluptatum unde repudiandae odio
+              vel enim similique fugit porro accusamus mollitia deleniti quaerat
+              itaque consectetur, dolorem perspiciatis!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img
+                src="https://posapp.vn/wp-content/uploads/2020/07/Nut-PosApp-nha-hang-cafe2-min.png"
+                alt=""
+              />
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quia
+              repellendus consequuntur ullam voluptatum unde repudiandae odio
+              vel enim similique fugit porro accusamus mollitia deleniti quaerat
+              itaque consectetur, dolorem perspiciatis!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img
+                src="https://cdn-img-v2.webbnc.net/uploadv2/web/14/14961/product/2020/12/11/11/48/1607661414_1607067877_chao-hai-san_01.png?v=4"
+                alt=""
+              />
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quia
+              repellendus consequuntur ullam voluptatum unde repudiandae odio
+              vel enim similique fugit porro accusamus mollitia deleniti quaerat
+              itaque consectetur, dolorem perspiciatis!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section ends -->
+    <!-- order section starts -->
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">free and fast</h1>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span> your name </span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span> your number </span>
+            <input type="number" placeholder="enter your number" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span> your order </span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span> additional food </span>
+            <input type="test" placeholder="extra with food" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span> how much </span>
+            <input type="number" placeholder="how many orders" />
+          </div>
+          <div class="input">
+            <span> date and time </span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span> your address </span>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="enter your address"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span> your message </span>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="enter your message"
+            ></textarea>
+          </div>
+        </div>
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+    <!-- order section ends -->
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#"> india </a>
+          <a href="#"> japan </a>
+          <a href="#"> russia </a>
+          <a href="#"> USA </a>
+          <a href="#"> france </a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> home </a>
+          <a href="#"> dishes </a>
+          <a href="#"> about </a>
+          <a href="#"> menu </a>
+          <a href="#"> review </a>
+          <a href="#"> order </a>
+        </div>
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> + 123-456-7890 </a>
+          <a href="#"> + 111-222-3333 </a>
+          <a href="#"> nguyenvanxuan30082003@gmail.com </a>
+          <a href="#"> vanxuan@gmail.com </a>
+          <a href="#"> ha noi, vienamese - 100200 </a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> facebook </a>
+          <a href="#"> twitter </a>
+          <a href="#"> instagram </a>
+          <a href="#"> likedin </a>
+        </div>
+      </div>
+      <div class="credit">copyright @2022 by <span> van xuan 2k3 </span></div>
+    </section>
+    <!-- footer section ends -->
+    <!-- loader part -->
+    <!-- <div class="loader-container">
+      <img src="http://www.invescoeasysteps.ie/img/loading.gif" alt="" />
+    </div> -->
+    <!-- nhung swiper js de thay doi tu dong -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
